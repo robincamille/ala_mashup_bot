@@ -30,13 +30,13 @@ Inspired as a bot for Python for Beginners workshop I'm co-leading at ALAAC 2018
 	 	- dogs and cats
 	 	- cats
 - Having more data makes a more productive bot, or in other words, more data = more possibilities. It doesn't matter if there are duplicates or similar lines in the Beginners and Enders, since the bot's only tweeting one possibility every hour. 
-- These were saved as **ala\_beginners.txt*** and **ala\_enders.txt** text files. 
+- These were saved as **ala\_beginners.txt** and **ala\_enders.txt** text files. 
 
 ## Generating talk titles
 
 - At first, I tried the Markov maker from our [bot tutorial](https://github.com/MarkEEaton/bot-tutorial-ala), but (a) I didn't have enough talk titles for it to generate new things, and (b) it's not super smart and would end titles with "and" and other non-endy words.
 - So that's why I split talk titles into beginning and ending halves. My tweet script, **alatweet.py**, chooses a random beginning and ending from **ala\_beginners.txt*** and **ala\_enders.txt** each time it tweets. It's got just enough human language to sound plausible, but the randomness of which halves get matched can bring in the whimsy, or the uncanniness. 
-	- If you download this script, you'll get an error because you don't have an alacredentials.py file. Check out our [bot tutorial](https://github.com/MarkEEaton/bot-tutorial-ala) for info about setting up a bot with a credentials file.
+	- If you download **alatweet.py** and try to use it, you'll get an error because you don't have an alacredentials.py file. Check out our [bot tutorial](https://github.com/MarkEEaton/bot-tutorial-ala) for info about setting up a bot with a credentials file.
 	- Note that I changed the ACCESS\_TOKEN variables to ACCESS\_KEY for no reason at all. 
 
 ### Examples of generated titles
@@ -54,7 +54,7 @@ Inspired as a bot for Python for Beginners workshop I'm co-leading at ALAAC 2018
 (I had to check to see if those last 2 were actual talk titles! They really are mash-ups.)
 
 ## To-dos
-0. Comb through data and remove more people's names (mostly done)
-0. Don't match titles with 2+ colons together 
-0. Incorporate more whimsy... Add in like 100 beginning and ending lines from another source? Song titles? 
+1. Comb through data and remove more people's names (mostly done)
+1. Don't match titles with 2+ colons together 
+1. Incorporate more whimsy... Add in like 100 beginning and ending lines from another source? Song titles? 
 
