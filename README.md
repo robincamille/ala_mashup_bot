@@ -1,7 +1,5 @@
 # About this bot
 
-See it in action: https://twitter.com/ALA_mashup (tweets hourly)
-
 This bot mixes up talk titles from ALA Annual Conferences 2016, 2017, and 2018. The mash-up titles are composed of two halves, each from a real ALA program talk.
 
 Inspired as a bot for Python for Beginners workshop I'm co-leading at ALAAC 2018. See: https://github.com/MarkEEaton/bot-tutorial-ala 
